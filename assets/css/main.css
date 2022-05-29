@@ -1,0 +1,175 @@
+/* global section */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#fffefd;
+    text-transform:uppercase;
+    font-weight:300;
+}
+
+/* awesome developer section */
+.awesome_developer_section {
+    max-width: 1056px;
+    width: 100%;
+    padding: 6% 11%;
+    margin: 4px auto;
+    background-image: linear-gradient(to right, #b48ca8, #5e7ac9);
+    position:relative;
+}
+.awesome_developer {
+    background-color: #2b3c52;
+    text-align: center;
+    padding: 115px 45px;
+    border-radius: 13px;
+    opacity: 0.8;
+    z-index:1;
+}
+.awesome_developer h1{
+    border-bottom: 1px solid #E7EEF4;
+    font-weight:300;
+    font-size:38px;
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+}
+.awesome_developer p {
+    padding: 40px 0px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* social icon section  */
+.social_icon ul {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:10px;
+}
+.social_icon ul li{
+    list-style: none;
+}
+.social_icon ul li a {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+.social_icon ul li .twitter{
+    background-color: #69b7cf;
+}
+.social_icon ul li:hover .twitter{
+    background-color: #fff;
+}
+.social_icon ul li:hover .twitter i{
+    color: #69b7cf;
+}
+.social_icon ul li .facebook{
+    background-color:#7492d2 ;
+}
+.social_icon ul li:hover .facebook{
+    background-color:#fff ;
+}
+.social_icon ul li:hover .facebook i{
+    color:#7492d2 ;
+}
+.social_icon ul li .phone{
+    background-color: #89bf93;
+}
+.social_icon ul li:hover .phone{
+    background-color: #fff;
+}
+.social_icon ul li:hover .phone i{
+    color: #89bf93;
+}
+.social_icon ul li .envelope{
+    background-color: #c289a4;
+}
+.social_icon ul li:hover .envelope{
+    background-color: #fff;
+}
+.social_icon ul li:hover .envelope i{
+    color: #c289a4;
+}
+.social_icon ul li a i {
+    font-size: 25px;
+}
+
+/* animation section  */
+.background_box{
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    animation-name:backgroundBox;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    opacity:0;
+    position:absolute;
+}
+@keyframes backgroundBox{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.03;
+    }
+    100%{
+        opacity: 0.05;
+    }
+}
+.background_box2{
+    width:50px;
+    height:50px;
+    background-color:#fff;
+    animation-name:backgroundBox2;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    opacity:0;
+    position:absolute;
+}
+@keyframes backgroundBox2{
+    0%{
+        opacity: 0.03;
+    }
+    50%{
+        opacity: 0.05;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.background_box3{
+    width:50px;
+    height:50px;
+    background-color: #fff;
+    animation-name:backgroundBox3;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    opacity:0;
+    position:absolute;
+}
+@keyframes backgroundBox3{
+    0%{
+        opacity: 0.03;
+        width:30px;
+    }
+    50%{
+        opacity: 0.05;
+        width:40px;
+    }
+    100%{
+        opacity: 0;
+        width:50px;
+    }
+}
